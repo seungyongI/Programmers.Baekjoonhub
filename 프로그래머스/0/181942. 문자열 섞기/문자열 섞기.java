@@ -3,7 +3,7 @@ class Solution {
         String answer = "";
         char[] a = str1.toCharArray();
         char[] b = str2.toCharArray();
-        char[] result = new char[str1.length()+str2.length()];
+        char[] result = new char[a.length+b.length];
 
         for (int i = 0; i < result.length; i += 2) {
             result[i] = a[i / 2];
