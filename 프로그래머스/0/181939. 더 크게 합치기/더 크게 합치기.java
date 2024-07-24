@@ -2,8 +2,8 @@ class Solution {
     public int solution(int a, int b) {
         int answer = 0;
         
-        int answer1 = Integer.parseInt(Integer.toString(a) + Integer.toString(b));
-        int answer2 = Integer.parseInt(Integer.toString(b) + Integer.toString(a));
+        int answer1 = Integer.parseInt(""+a+b);
+        int answer2 = Integer.parseInt(""+b+a);
         if (answer1 >= answer2) {
             answer = answer1;
         } else {
