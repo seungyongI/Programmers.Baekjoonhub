@@ -11,10 +11,6 @@ class Solution {
         }
         my_string = new String(myChar);
         answer = my_string;
-        System.out.println(answer);
         return answer;
-        
-        
     }
-
 }
